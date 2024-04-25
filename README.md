@@ -1,1 +1,1 @@
-Untuk mencoba menjalankan aplikasi AngkasaConnect, silakan unduh dan unggah file SQL ke basis data Anda.
+Untuk mencoba menjalankan aplikasi AngkasaConnect, silakan unduh dan unggah juga file SQL ke basis data Anda.
