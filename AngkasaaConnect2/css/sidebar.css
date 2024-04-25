@@ -1,0 +1,146 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 230px;
+    height: 100%;
+    padding: 40px 10px 30px 10px;
+    background: #ffffff;
+    border-right: 1px solid var(--border);
+    transition: 0.3s;
+}
+
+.sidebar-header {
+    width: 100%;
+    margin-bottom: 44px;
+}
+
+.logo {
+    display: flex;
+    padding: 0 12px;
+
+    flex-direction: row;
+}
+
+.logo-img {
+    margin-right: 10px;
+    height: 34px;
+}
+
+.sidebar nav {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sidebar button a i {
+    color: var(--hitam);
+}
+
+.sidebar nav button {
+    height: 60px;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+.sidebar nav button>a {
+    text-decoration: none;
+    color: var(--hitam);
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    height: 55px;
+    padding: 0 12px;
+    border-radius: 10px;
+    line-height: 1;
+}
+
+.sidebar button a span {
+    padding-left: 10px;
+}
+
+.sidebar button>a>span {
+    text-align: start;
+}
+
+.sidebar button:hover>a {
+    background: var(--hover);
+}
+
+.sidebar nav button a i {
+    font-size: 26px;
+    color: var(--hitam);
+}
+
+.account-img-sidebar {
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+}
+
+.sidebar button:last-child {
+    margin-top: auto;
+    margin-bottom: 66px;
+}
+
+.Copyright {
+    margin-top: auto;
+    margin-bottom: 65px;
+
+    align-items: flex-start;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--hitam);
+
+    padding: 0px 12px;
+}
+
+.Copyright a {
+    color: var(--hitam);
+    font-weight: 700;
+}
+
+@media (width > 1200px) {
+    .logo-img {
+        display: none;
+    }
+}
+
+@media (width < 1201px) {
+    .logo h1 {
+        display: none;
+    }
+
+    .sidebar {
+        width: 60px;
+    }
+
+    .sidebar button a {
+        width: 28px;
+    }
+
+    .chevron {
+        display: none;
+    }
+
+    .sidebar button>a>span, .Copyright {
+        display: none;
+    }
+    
+}
+
+@media (width < 768px) {
+    .sidebar {
+        display: none;
+    }
+}
