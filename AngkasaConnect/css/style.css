@@ -295,7 +295,7 @@ Mengatur tampilan navigasi global */
     overflow-x: auto;
     /* Memungkinkan konten untuk digulir secara horizontal */
     /* padding-bottom: 20px; */
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .kategori-wrap::-webkit-scrollbar {
@@ -333,7 +333,7 @@ Mengatur tampilan navigasi global */
     padding-bottom: 50px;
     margin-bottom: 40px;
 
-    gap: 40px;
+    gap: 46px;
 }
 
 .profile-content-left {
