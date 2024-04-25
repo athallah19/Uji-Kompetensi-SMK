@@ -40,6 +40,7 @@ li a, li span {
     font-size: 14px;
     font-weight: 500;
     margin-right: auto;
+    line-height: 1.5;
 }
 
 .user-profile {
