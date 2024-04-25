@@ -1,0 +1,206 @@
+
+.details-wrap img {
+    width: 100%;
+    border-radius: 5px; 
+}
+
+.judul {
+    margin-right: auto;
+    gap: 14px;
+    margin-bottom: 24px;
+}
+
+li {
+    gap: 3px;
+}
+
+li a, li span {
+    color: var(--hitam);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.judul > span {
+    color: var(--hitam);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Publisher-detail {
+    font-size: 14px;
+    margin-right: auto;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+
+.caption {
+    color: var(--hitam);
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+.user-profile {
+    font-weight: 500;
+    font-size: 14px;
+    align-items: start;
+
+    margin-bottom: auto;
+}
+
+.date {
+    font-size: 12px;
+    color: var(--gray);
+    margin-bottom: 2px;
+}
+
+
+.wrap-komentarForm {
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin: 40px 0px 50px 0px;
+}
+
+.wrap-komentarForm p {
+    width: 90%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.wrap-komentarForm p span {
+    font-weight: 400;
+}
+
+.tambah-comment {
+    width: 90%;
+    background-color: var(--white);
+    border-radius: 5px;
+   
+    margin: 20px 0px 24px 0px;
+    box-shadow: 0px 5px 14px -3px rgba(0,0,0,0.1);
+}
+
+.input-wrap {
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+    background-color: var(--white);
+
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.input-comment {
+    border: 0;
+
+    outline: none;
+    width: 90%;
+
+    border-radius: 5px;
+
+    resize: vertical;
+
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.aksi-comment {
+    margin: 14px 20px 14px auto;
+}
+
+.btn-send {
+    padding: 8px 30px;  
+    color: var(--white);
+    border: 1px solid var(--white);
+    background-color: var(--hitam);
+    border-radius: 5px;
+}
+
+
+
+
+.user-profile-wrap .user-profile {
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.comments .user-profile span:first-child {
+    font-weight: bold;
+    color: var(--hitam);
+}
+
+.comments-wrap {
+    width: 100%;
+    column-count: 1;
+    margin-bottom: 40px;
+}
+
+.comments img {
+    margin-bottom: auto;
+}
+
+.comments .user-profile {
+    gap: 4px;
+    margin-left: 18px;
+    margin-right: auto;
+}
+
+.comments .date-comments {
+    text-align: end;
+    width: 20%;
+    font-size: 10px;
+    color: var(--gray);
+    margin-bottom: auto;
+}
+
+
+
+/* Media queries untuk lebar layar 431px atau lebih kecil */
+@media (max-width: 431px) {
+
+    .feed2 {
+        width: 86%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .user-profile-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .date {
+        margin-top: 13px;
+        margin-bottom: 5px;
+    }
+
+    .user-profile-wrap img {
+        width: 100%; 
+    }
+
+    .user-profile-wrap .user-profile {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 431px) {
+    hr {
+        width: 100%;
+    }
+
+    .input-comment {
+        width: 86%;
+    }
+}
+
+@media (max-width: 321px) {
+    .input-comment {
+        width: 75%;
+    }
+}

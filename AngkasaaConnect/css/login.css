@@ -1,0 +1,105 @@
+
+.login {
+    height: 94vh;
+    gap: 100px;
+}
+
+.text-logo {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.right-form {
+    padding: 40px 66px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.input-box {
+    margin-top: 20px;
+    
+    border: 1px solid var(--border);
+    border-radius: 5px;
+}
+
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input {
+    width: 200px;
+    height: 32px;
+    padding: 10px 6px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+button {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 14px;
+    padding: 16px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--hitam);
+    border: none;
+    cursor: pointer;
+
+    margin-top: 30px;
+}
+
+.or span {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.or hr {
+    width: 36%;
+    height: 1px;
+    border-width: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: var(--border);
+    background-color: var(--border);
+}
+
+.other a {
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--hitam);
+}
+
+/* CSS untuk layar dengan lebar 1024px atau lebih besar */
+.left-img {
+    display: block; /* Menampilkan container left-img */
+}
+
+/* Media query untuk layar dengan lebar kurang dari 1024px */
+@media screen and (max-width: 1024px) {
+    .left-img {
+        display: none; /* Menghilangkan container left-img */
+    }
+
+    /* Mengubah gaya right-form pada layar dengan lebar kurang dari 1024px */
+    .right-form {
+        padding: 40px 66px; /* Mengurangi padding pada right-form */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .right-form {
+        border: none;
+    }
+}
